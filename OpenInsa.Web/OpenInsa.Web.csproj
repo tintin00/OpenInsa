@@ -1,0 +1,528 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8998A02E-5DAF-4CB3-B274-88CC7DAA2ABA}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>OpenInsa.Web</RootNamespace>
+    <AssemblyName>OpenInsa.Web</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="IBatisNet.Common">
+      <HintPath>..\..\bin\IBatisNet.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="IBatisNet.Common.Logging.Log4Net">
+      <HintPath>..\..\bin\IBatisNet.Common.Logging.Log4Net.dll</HintPath>
+    </Reference>
+    <Reference Include="IBatisNet.DataMapper">
+      <HintPath>..\..\bin\IBatisNet.DataMapper.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Data\_test.mdf" />
+    <Content Include="Default.aspx" />
+    <Content Include="Images\board_view_03.gif" />
+    <Content Include="Images\board_view_07.gif" />
+    <Content Include="Images\board_view_16.gif" />
+    <Content Include="Images\board_view_19.gif" />
+    <Content Include="Images\board_view_20.gif" />
+    <Content Include="Images\board_view_22.gif" />
+    <Content Include="Images\board_view_23.gif" />
+    <Content Include="Images\board_view_24.gif" />
+    <Content Include="Images\board_write_03.gif" />
+    <Content Include="Images\board_write_04.gif" />
+    <Content Include="Images\board_write_05.gif" />
+    <Content Include="Images\board_write_06.gif" />
+    <Content Include="Images\board_write_07.gif" />
+    <Content Include="Images\board_write_08.gif" />
+    <Content Include="Images\board_write_09.gif" />
+    <Content Include="Images\board_write_10.gif" />
+    <Content Include="Images\board_write_11.gif" />
+    <Content Include="Images\board_write_12.gif" />
+    <Content Include="Images\board_write_13.gif" />
+    <Content Include="Images\board_write_14.gif" />
+    <Content Include="Images\board_write_15.gif" />
+    <Content Include="Images\board_write_16.gif" />
+    <Content Include="Images\free_board_03.gif" />
+    <Content Include="Images\free_board_04.gif" />
+    <Content Include="Images\free_board_05.gif" />
+    <Content Include="Images\free_board_06.gif" />
+    <Content Include="Images\free_board_12.gif" />
+    <Content Include="Images\free_board_15.gif" />
+    <Content Include="Images\free_board_17.gif" />
+    <Content Include="Images\informade%28sub%29_01_03.gif" />
+    <Content Include="Images\informade%28sub%29_03.gif" />
+    <Content Include="Images\line2.gif" />
+    <Content Include="Images\membership_01.gif" />
+    <Content Include="Images\old_head.gif" />
+    <Content Include="Images\reply_head.gif" />
+    <Content Include="profile.xml" />
+    <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.4.1.js" />
+    <Content Include="Scripts\jquery-1.4.1.min.js" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="_AXJ\axj_h.png" />
+    <Content Include="_AXJ\axj_v.png" />
+    <Content Include="_AXJ\jquery\jquery-1.10.2.js" />
+    <Content Include="_AXJ\jquery\jquery.js" />
+    <Content Include="_AXJ\jquery\jquery.min.js" />
+    <Content Include="_AXJ\lib\AXCodeArea.js" />
+    <Content Include="_AXJ\lib\AXCodeView.js" />
+    <Content Include="_AXJ\lib\AXDOMRange.js" />
+    <Content Include="_AXJ\lib\AXDrag.js" />
+    <Content Include="_AXJ\lib\AXEditor.html" />
+    <Content Include="_AXJ\lib\AXEditor.js" />
+    <Content Include="_AXJ\lib\AXExcelConvert.js" />
+    <Content Include="_AXJ\lib\AXGrid.js" />
+    <Content Include="_AXJ\lib\AXHtmlElement.js" />
+    <Content Include="_AXJ\lib\AXInput.js" />
+    <Content Include="_AXJ\lib\AXJ.js" />
+    <Content Include="_AXJ\lib\AXModal.js" />
+    <Content Include="_AXJ\lib\AXMultiSelector.js" />
+    <Content Include="_AXJ\lib\AXProgress.js" />
+    <Content Include="_AXJ\lib\AXSearch.js" />
+    <Content Include="_AXJ\lib\AXSelect.js" />
+    <Content Include="_AXJ\lib\AXTab.js" />
+    <Content Include="_AXJ\lib\AXTimeTable.js" />
+    <Content Include="_AXJ\lib\AXTopDownMenu.js" />
+    <Content Include="_AXJ\lib\AXTree.js" />
+    <Content Include="_AXJ\lib\AXUpload.js" />
+    <Content Include="_AXJ\lib\AXUserSelect.js" />
+    <Content Include="_AXJ\lib\AXValidator.js" />
+    <Content Include="_AXJ\lib\AXWaterfall.js" />
+    <Content Include="_AXJ\lib\gridEasy.js" />
+    <Content Include="_AXJ\lib\import.js" />
+    <Content Include="_AXJ\lib\swfupload.swf" />
+    <Content Include="_AXJ\ui\buttonIcons\animal-penguin.png" />
+    <Content Include="_AXJ\ui\buttonIcons\arrow-090-medium.png" />
+    <Content Include="_AXJ\ui\buttonIcons\black_allow.png" />
+    <Content Include="_AXJ\ui\buttonIcons\black_close.png" />
+    <Content Include="_AXJ\ui\buttonIcons\black_copy.png" />
+    <Content Include="_AXJ\ui\buttonIcons\black_del.png" />
+    <Content Include="_AXJ\ui\buttonIcons\black_deny.png" />
+    <Content Include="_AXJ\ui\buttonIcons\black_edit.png" />
+    <Content Include="_AXJ\ui\buttonIcons\black_email.png" />
+    <Content Include="_AXJ\ui\buttonIcons\black_excel.png" />
+    <Content Include="_AXJ\ui\buttonIcons\black_help.png" />
+    <Content Include="_AXJ\ui\buttonIcons\black_new.png" />
+    <Content Include="_AXJ\ui\buttonIcons\black_open.png" />
+    <Content Include="_AXJ\ui\buttonIcons\black_pdf.png" />
+    <Content Include="_AXJ\ui\buttonIcons\black_sangsin.png" />
+    <Content Include="_AXJ\ui\buttonIcons\black_save.png" />
+    <Content Include="_AXJ\ui\buttonIcons\black_search.png" />
+    <Content Include="_AXJ\ui\buttonIcons\black_view.png" />
+    <Content Include="_AXJ\ui\buttonIcons\black_write.png" />
+    <Content Include="_AXJ\ui\buttonIcons\disk-black.png" />
+    <Content Include="_AXJ\ui\buttonIcons\disk-small-black.png" />
+    <Content Include="_AXJ\ui\buttonIcons\magnifier-medium-left.png" />
+    <Content Include="_AXJ\ui\buttonIcons\magnifier-small.png" />
+    <Content Include="_AXJ\ui\buttonIcons\new.png" />
+    <Content Include="_AXJ\ui\buttonIcons\printer.png" />
+    <Content Include="_AXJ\ui\buttonIcons\tick-button.png" />
+    <Content Include="_AXJ\ui\buttonIcons\tick-circle-frame.png" />
+    <Content Include="_AXJ\ui\buttonIcons\tick-circle.png" />
+    <Content Include="_AXJ\ui\buttonIcons\Untitled-1.png" />
+    <Content Include="_AXJ\ui\buttonIcons\white_allow.png" />
+    <Content Include="_AXJ\ui\buttonIcons\white_close.png" />
+    <Content Include="_AXJ\ui\buttonIcons\white_copy.png" />
+    <Content Include="_AXJ\ui\buttonIcons\white_del.png" />
+    <Content Include="_AXJ\ui\buttonIcons\white_deny.png" />
+    <Content Include="_AXJ\ui\buttonIcons\white_edit.png" />
+    <Content Include="_AXJ\ui\buttonIcons\white_email.png" />
+    <Content Include="_AXJ\ui\buttonIcons\white_excel.png" />
+    <Content Include="_AXJ\ui\buttonIcons\white_help.png" />
+    <Content Include="_AXJ\ui\buttonIcons\white_new.png" />
+    <Content Include="_AXJ\ui\buttonIcons\white_open.png" />
+    <Content Include="_AXJ\ui\buttonIcons\white_pdf.png" />
+    <Content Include="_AXJ\ui\buttonIcons\white_sangsin.png" />
+    <Content Include="_AXJ\ui\buttonIcons\white_save.png" />
+    <Content Include="_AXJ\ui\buttonIcons\white_search.png" />
+    <Content Include="_AXJ\ui\buttonIcons\white_view.png" />
+    <Content Include="_AXJ\ui\buttonIcons\white_write.png" />
+    <Content Include="_AXJ\ui\default\AXButton.css" />
+    <Content Include="_AXJ\ui\default\AXEditor.css" />
+    <Content Include="_AXJ\ui\default\AXGrid.css" />
+    <Content Include="_AXJ\ui\default\AXInput.css" />
+    <Content Include="_AXJ\ui\default\AXJ.css" />
+    <Content Include="_AXJ\ui\default\AXProgress.css" />
+    <Content Include="_AXJ\ui\default\AXSearch.css" />
+    <Content Include="_AXJ\ui\default\AXSelect.css" />
+    <Content Include="_AXJ\ui\default\AXTabs.css" />
+    <Content Include="_AXJ\ui\default\AXTimeTable.css" />
+    <Content Include="_AXJ\ui\default\AXTree.css" />
+    <Content Include="_AXJ\ui\default\AXUpload.css" />
+    <Content Include="_AXJ\ui\default\AXWaterfall.css" />
+    <Content Include="_AXJ\ui\default\AXWBS.css" />
+    <Content Include="_AXJ\ui\default\img\AXBtnUpload_102x22.png" />
+    <Content Include="_AXJ\ui\default\img\AXBtnUpload_69x32.png" />
+    <Content Include="_AXJ\ui\default\img\AXCheckbox.png" />
+    <Content Include="_AXJ\ui\default\img\AXEditor\arrow.gif" />
+    <Content Include="_AXJ\ui\default\img\AXEditor\arrowOn.gif" />
+    <Content Include="_AXJ\ui\default\img\AXEditor\bt.gif" />
+    <Content Include="_AXJ\ui\default\img\AXEditor\btBg.gif" />
+    <Content Include="_AXJ\ui\default\img\AXEditor\btns.gif" />
+    <Content Include="_AXJ\ui\default\img\AXEditor\icons.gif" />
+    <Content Include="_AXJ\ui\default\img\AXEditor\paBg.gif" />
+    <Content Include="_AXJ\ui\default\img\AXEditor\resizer.gif" />
+    <Content Include="_AXJ\ui\default\img\AXEditor\tmBg.gif" />
+    <Content Include="_AXJ\ui\default\img\AXEditor\tmBgOn.gif" />
+    <Content Include="_AXJ\ui\default\img\axmodalClose.png" />
+    <Content Include="_AXJ\ui\default\img\AXPopOverArrow.png" />
+    <Content Include="_AXJ\ui\default\img\AXPopOverTooltipArrow.png" />
+    <Content Include="_AXJ\ui\default\img\AXPopOverTooltipArrowBottom.png" />
+    <Content Include="_AXJ\ui\default\img\AXProgressCircle.png" />
+    <Content Include="_AXJ\ui\default\img\AXTabBg.png" />
+    <Content Include="_AXJ\ui\default\img\AXTabBgLarge.png" />
+    <Content Include="_AXJ\ui\default\img\AXTabBgLargeVerticalLeft.png" />
+    <Content Include="_AXJ\ui\default\img\AXTabBgSmall.png" />
+    <Content Include="_AXJ\ui\default\img\AXTabBgSmallVerticalLeft.png" />
+    <Content Include="_AXJ\ui\default\img\AXTabBgVerticalLeft.png" />
+    <Content Include="_AXJ\ui\default\img\AXUIProgressAnimate01_black.gif" />
+    <Content Include="_AXJ\ui\default\img\AXUIProgressAnimate01_white.gif" />
+    <Content Include="_AXJ\ui\default\img\AXUIProgressAnimate02_black.gif" />
+    <Content Include="_AXJ\ui\default\img\AXUIProgressAnimate02_white.gif" />
+    <Content Include="_AXJ\ui\default\img\blueLarge.png" />
+    <Content Include="_AXJ\ui\default\img\blueLargeVertical.png" />
+    <Content Include="_AXJ\ui\default\img\blueRegular.png" />
+    <Content Include="_AXJ\ui\default\img\blueRegularVertical.png" />
+    <Content Include="_AXJ\ui\default\img\blueSmall.png" />
+    <Content Include="_AXJ\ui\default\img\blueSmallVertical.png" />
+    <Content Include="_AXJ\ui\default\img\boxTail0.png" />
+    <Content Include="_AXJ\ui\default\img\boxTail180.png" />
+    <Content Include="_AXJ\ui\default\img\boxTail270.png" />
+    <Content Include="_AXJ\ui\default\img\boxTail90.png" />
+    <Content Include="_AXJ\ui\default\img\buttonUploadText_61x22.png" />
+    <Content Include="_AXJ\ui\default\img\calendarBgs.png" />
+    <Content Include="_AXJ\ui\default\img\calendarBoxBG.png" />
+    <Content Include="_AXJ\ui\default\img\calendarBoxPoint.png" />
+    <Content Include="_AXJ\ui\default\img\calendarHandle.png" />
+    <Content Include="_AXJ\ui\default\img\capsValue.png" />
+    <Content Include="_AXJ\ui\default\img\checkedValue.png" />
+    <Content Include="_AXJ\ui\default\img\classicLarge.png" />
+    <Content Include="_AXJ\ui\default\img\classicLargeVertical.png" />
+    <Content Include="_AXJ\ui\default\img\classicRegular.png" />
+    <Content Include="_AXJ\ui\default\img\classicRegularVertical.png" />
+    <Content Include="_AXJ\ui\default\img\classicSmall.png" />
+    <Content Include="_AXJ\ui\default\img\classicSmallVertical.png" />
+    <Content Include="_AXJ\ui\default\img\confirmValue.png" />
+    <Content Include="_AXJ\ui\default\img\contextMenuIcon_closeall.png" />
+    <Content Include="_AXJ\ui\default\img\contextMenuIcon_copy.png" />
+    <Content Include="_AXJ\ui\default\img\contextMenuIcon_cut.png" />
+    <Content Include="_AXJ\ui\default\img\contextMenuIcon_del.png" />
+    <Content Include="_AXJ\ui\default\img\contextMenuIcon_doc.png" />
+    <Content Include="_AXJ\ui\default\img\contextMenuIcon_docline.png" />
+    <Content Include="_AXJ\ui\default\img\contextMenuIcon_down.png" />
+    <Content Include="_AXJ\ui\default\img\contextMenuIcon_edit.png" />
+    <Content Include="_AXJ\ui\default\img\contextMenuIcon_group.png" />
+    <Content Include="_AXJ\ui\default\img\contextMenuIcon_left.png" />
+    <Content Include="_AXJ\ui\default\img\contextMenuIcon_link.png" />
+    <Content Include="_AXJ\ui\default\img\contextMenuIcon_minus.png" />
+    <Content Include="_AXJ\ui\default\img\contextMenuIcon_openall.png" />
+    <Content Include="_AXJ\ui\default\img\contextMenuIcon_paste.png" />
+    <Content Include="_AXJ\ui\default\img\contextMenuIcon_plus.png" />
+    <Content Include="_AXJ\ui\default\img\contextMenuIcon_right.png" />
+    <Content Include="_AXJ\ui\default\img\contextMenuIcon_unlink.png" />
+    <Content Include="_AXJ\ui\default\img\contextMenuIcon_up.png" />
+    <Content Include="_AXJ\ui\default\img\contextSubMenuIcon.png" />
+    <Content Include="_AXJ\ui\default\img\cross-button.png" />
+    <Content Include="_AXJ\ui\default\img\cross-circle-frame.png" />
+    <Content Include="_AXJ\ui\default\img\defaultLarge.png" />
+    <Content Include="_AXJ\ui\default\img\defaultLargeVerticalLeft.png" />
+    <Content Include="_AXJ\ui\default\img\defaultRegular.png" />
+    <Content Include="_AXJ\ui\default\img\defaultRegularVerticalLeft.png" />
+    <Content Include="_AXJ\ui\default\img\defaultSmall.png" />
+    <Content Include="_AXJ\ui\default\img\defaultSmallVerticalLeft.png" />
+    <Content Include="_AXJ\ui\default\img\deleteValue.png" />
+    <Content Include="_AXJ\ui\default\img\diagonalBG.png" />
+    <Content Include="_AXJ\ui\default\img\dialogClose.png" />
+    <Content Include="_AXJ\ui\default\img\dialogTitle.png" />
+    <Content Include="_AXJ\ui\default\img\disableBg.png" />
+    <Content Include="_AXJ\ui\default\img\document-insert.png" />
+    <Content Include="_AXJ\ui\default\img\downArrow.png" />
+    <Content Include="_AXJ\ui\default\img\downArrowOn.png" />
+    <Content Include="_AXJ\ui\default\img\downArrows.png" />
+    <Content Include="_AXJ\ui\default\img\file.png" />
+    <Content Include="_AXJ\ui\default\img\greenLarge.png" />
+    <Content Include="_AXJ\ui\default\img\greenLargeVertical.png" />
+    <Content Include="_AXJ\ui\default\img\greenRegular.png" />
+    <Content Include="_AXJ\ui\default\img\greenRegularVertical.png" />
+    <Content Include="_AXJ\ui\default\img\greenSmall.png" />
+    <Content Include="_AXJ\ui\default\img\greenSmallVertical.png" />
+    <Content Include="_AXJ\ui\default\img\gridbodyBorder.png" />
+    <Content Include="_AXJ\ui\default\img\gridFixedbodyBorder.png" />
+    <Content Include="_AXJ\ui\default\img\gridheadBG.png" />
+    <Content Include="_AXJ\ui\default\img\gridheadBGH.png" />
+    <Content Include="_AXJ\ui\default\img\gridheadBorder.png" />
+    <Content Include="_AXJ\ui\default\img\gridheadBorderB.png" />
+    <Content Include="_AXJ\ui\default\img\gridHeadTool.png" />
+    <Content Include="_AXJ\ui\default\img\gridHeadToolOn.png" />
+    <Content Include="_AXJ\ui\default\img\gridpageBG.png" />
+    <Content Include="_AXJ\ui\default\img\itemCheck.png" />
+    <Content Include="_AXJ\ui\default\img\leftArrows.png" />
+    <Content Include="_AXJ\ui\default\img\leftArrowsBg.png" />
+    <Content Include="_AXJ\ui\default\img\loading.gif" />
+    <Content Include="_AXJ\ui\default\img\nextArrow.png" />
+    <Content Include="_AXJ\ui\default\img\notificationCaution.png" />
+    <Content Include="_AXJ\ui\default\img\notificationComplete.png" />
+    <Content Include="_AXJ\ui\default\img\notificationWarning.png" />
+    <Content Include="_AXJ\ui\default\img\pageBtn.gif" />
+    <Content Include="_AXJ\ui\default\img\prevArrow.png" />
+    <Content Include="_AXJ\ui\default\img\progressBar.png" />
+    <Content Include="_AXJ\ui\default\img\redLarge.png" />
+    <Content Include="_AXJ\ui\default\img\redLargeVertical.png" />
+    <Content Include="_AXJ\ui\default\img\redRegular.png" />
+    <Content Include="_AXJ\ui\default\img\redRegularVertical.png" />
+    <Content Include="_AXJ\ui\default\img\redSmall.png" />
+    <Content Include="_AXJ\ui\default\img\redSmallVertical.png" />
+    <Content Include="_AXJ\ui\default\img\rightArrows.png" />
+    <Content Include="_AXJ\ui\default\img\rightArrowsBg.png" />
+    <Content Include="_AXJ\ui\default\img\slideDownArrow.png" />
+    <Content Include="_AXJ\ui\default\img\slideHandle.png" />
+    <Content Include="_AXJ\ui\default\img\sliderHandleMax.png" />
+    <Content Include="_AXJ\ui\default\img\sliderHandleMin.png" />
+    <Content Include="_AXJ\ui\default\img\slideUpArrow.png" />
+    <Content Include="_AXJ\ui\default\img\sortAsc.png" />
+    <Content Include="_AXJ\ui\default\img\sortDesc.png" />
+    <Content Include="_AXJ\ui\default\img\switchHandle.png" />
+    <Content Include="_AXJ\ui\default\img\treeArrows.png" />
+    <Content Include="_AXJ\ui\default\img\treebodyBorder.png" />
+    <Content Include="_AXJ\ui\default\img\treeFixedbodyBorder.png" />
+    <Content Include="_AXJ\ui\default\img\treeheadBG.png" />
+    <Content Include="_AXJ\ui\default\img\treeheadBGH.png" />
+    <Content Include="_AXJ\ui\default\img\treeheadBorder.png" />
+    <Content Include="_AXJ\ui\default\img\treeheadBorderB.png" />
+    <Content Include="_AXJ\ui\default\img\treeHeadTool.png" />
+    <Content Include="_AXJ\ui\default\img\treeHeadToolOn.png" />
+    <Content Include="_AXJ\ui\default\img\treeIcons.png" />
+    <Content Include="_AXJ\ui\default\img\treeIcons2.png" />
+    <Content Include="_AXJ\ui\default\img\treepageBG.png" />
+    <Content Include="_AXJ\ui\default\img\upArrow.png" />
+    <Content Include="_AXJ\ui\default\img\upArrowOn.png" />
+    <Content Include="_AXJ\ui\default\img\upArrows.png" />
+    <Content Include="_AXJ\ui\default\import.css" />
+    <Content Include="_AXJ\ui\icon\address-book.png" />
+    <Content Include="_AXJ\ui\icon\alarm-clock.png" />
+    <Content Include="_AXJ\ui\icon\arrow-000-medium.png" />
+    <Content Include="_AXJ\ui\icon\arrow-045-medium.png" />
+    <Content Include="_AXJ\ui\icon\arrow-045.png" />
+    <Content Include="_AXJ\ui\icon\arrow-090-medium.png" />
+    <Content Include="_AXJ\ui\icon\arrow-090.png" />
+    <Content Include="_AXJ\ui\icon\arrow-135-medium.png" />
+    <Content Include="_AXJ\ui\icon\arrow-135.png" />
+    <Content Include="_AXJ\ui\icon\arrow-180-medium.png" />
+    <Content Include="_AXJ\ui\icon\arrow-180.png" />
+    <Content Include="_AXJ\ui\icon\arrow-225-medium.png" />
+    <Content Include="_AXJ\ui\icon\arrow-225.png" />
+    <Content Include="_AXJ\ui\icon\arrow-270-medium.png" />
+    <Content Include="_AXJ\ui\icon\arrow-270.png" />
+    <Content Include="_AXJ\ui\icon\arrow-315-medium.png" />
+    <Content Include="_AXJ\ui\icon\arrow-315.png" />
+    <Content Include="_AXJ\ui\icon\arrow.png" />
+    <Content Include="_AXJ\ui\icon\asterisk.png" />
+    <Content Include="_AXJ\ui\icon\auction-hammer.png" />
+    <Content Include="_AXJ\ui\icon\balance.png" />
+    <Content Include="_AXJ\ui\icon\balloon-ellipsis.png" />
+    <Content Include="_AXJ\ui\icon\balloon-quotation.png" />
+    <Content Include="_AXJ\ui\icon\balloon.png" />
+    <Content Include="_AXJ\ui\icon\bandaid.png" />
+    <Content Include="_AXJ\ui\icon\bell.png" />
+    <Content Include="_AXJ\ui\icon\bin.png" />
+    <Content Include="_AXJ\ui\icon\binocular.png" />
+    <Content Include="_AXJ\ui\icon\block.png" />
+    <Content Include="_AXJ\ui\icon\bomb.png" />
+    <Content Include="_AXJ\ui\icon\bookmark.png" />
+    <Content Include="_AXJ\ui\icon\box.png" />
+    <Content Include="_AXJ\ui\icon\briefcase.png" />
+    <Content Include="_AXJ\ui\icon\broom.png" />
+    <Content Include="_AXJ\ui\icon\building.png" />
+    <Content Include="_AXJ\ui\icon\burn.png" />
+    <Content Include="_AXJ\ui\icon\calculator.png" />
+    <Content Include="_AXJ\ui\icon\camcorder.png" />
+    <Content Include="_AXJ\ui\icon\camera.png" />
+    <Content Include="_AXJ\ui\icon\car--exclamation.png" />
+    <Content Include="_AXJ\ui\icon\car-red.png" />
+    <Content Include="_AXJ\ui\icon\clapperboard.png" />
+    <Content Include="_AXJ\ui\icon\compass.png" />
+    <Content Include="_AXJ\ui\icon\credit-card.png" />
+    <Content Include="_AXJ\ui\icon\crown-bronze.png" />
+    <Content Include="_AXJ\ui\icon\crown-silver.png" />
+    <Content Include="_AXJ\ui\icon\crown.png" />
+    <Content Include="_AXJ\ui\icon\currency-euro.png" />
+    <Content Include="_AXJ\ui\icon\currency-pound.png" />
+    <Content Include="_AXJ\ui\icon\currency-yen.png" />
+    <Content Include="_AXJ\ui\icon\currency.png" />
+    <Content Include="_AXJ\ui\icon\cursor-small.png" />
+    <Content Include="_AXJ\ui\icon\cursor.png" />
+    <Content Include="_AXJ\ui\icon\direction.png" />
+    <Content Include="_AXJ\ui\icon\drill.png" />
+    <Content Include="_AXJ\ui\icon\eraser.png" />
+    <Content Include="_AXJ\ui\icon\eye.png" />
+    <Content Include="_AXJ\ui\icon\grimi\grimi_angry32.png" />
+    <Content Include="_AXJ\ui\icon\grimi\grimi_big_smile16.png" />
+    <Content Include="_AXJ\ui\icon\grimi\grimi_big_smile32.png" />
+    <Content Include="_AXJ\ui\icon\grimi\grimi_cry16.png" />
+    <Content Include="_AXJ\ui\icon\grimi\grimi_cry32.png" />
+    <Content Include="_AXJ\ui\icon\grimi\grimi_doze16.png" />
+    <Content Include="_AXJ\ui\icon\grimi\grimi_doze32.png" />
+    <Content Include="_AXJ\ui\icon\grimi\grimi_happy16.png" />
+    <Content Include="_AXJ\ui\icon\grimi\grimi_happy32.png" />
+    <Content Include="_AXJ\ui\icon\grimi\grimi_love16.png" />
+    <Content Include="_AXJ\ui\icon\grimi\grimi_love32.png" />
+    <Content Include="_AXJ\ui\icon\grimi\grimi_smile16.png" />
+    <Content Include="_AXJ\ui\icon\grimi\grimi_smile32.png" />
+    <Content Include="_AXJ\ui\icon\grimi\grimi_so_what16.png" />
+    <Content Include="_AXJ\ui\icon\grimi\grimi_so_what32.png" />
+    <Content Include="_AXJ\ui\icon\grimi\grimi_vomit16.png" />
+    <Content Include="_AXJ\ui\icon\grimi\grimi_vomit32.png" />
+    <Content Include="_AXJ\ui\icon\hammer.png" />
+    <Content Include="_AXJ\ui\icon\hand.png" />
+    <Content Include="_AXJ\ui\icon\heart-break.png" />
+    <Content Include="_AXJ\ui\icon\heart.png" />
+    <Content Include="_AXJ\ui\icon\inbox.png" />
+    <Content Include="_AXJ\ui\icon\keyboard.png" />
+    <Content Include="_AXJ\ui\icon\leaf.png" />
+    <Content Include="_AXJ\ui\icon\lifebuoy.png" />
+    <Content Include="_AXJ\ui\icon\light-bulb.png" />
+    <Content Include="_AXJ\ui\icon\mail-open.png" />
+    <Content Include="_AXJ\ui\icon\mail.png" />
+    <Content Include="_AXJ\ui\icon\marker.png" />
+    <Content Include="_AXJ\ui\icon\megaphone.png" />
+    <Content Include="_AXJ\ui\icon\microphone.png" />
+    <Content Include="_AXJ\ui\icon\mobile-phone.png" />
+    <Content Include="_AXJ\ui\icon\money.png" />
+    <Content Include="_AXJ\ui\icon\mouse.png" />
+    <Content Include="_AXJ\ui\icon\music.png" />
+    <Content Include="_AXJ\ui\icon\paint-can.png" />
+    <Content Include="_AXJ\ui\icon\pipette-color.png" />
+    <Content Include="_AXJ\ui\icon\plug.png" />
+    <Content Include="_AXJ\ui\icon\printer.png" />
+    <Content Include="_AXJ\ui\icon\safe.png" />
+    <Content Include="_AXJ\ui\icon\smiley-confuse.png" />
+    <Content Include="_AXJ\ui\icon\smiley-cool.png" />
+    <Content Include="_AXJ\ui\icon\smiley-cry.png" />
+    <Content Include="_AXJ\ui\icon\smiley-eek.png" />
+    <Content Include="_AXJ\ui\icon\smiley-evil.png" />
+    <Content Include="_AXJ\ui\icon\smiley-fat.png" />
+    <Content Include="_AXJ\ui\icon\smiley-grin.png" />
+    <Content Include="_AXJ\ui\icon\smiley-lol.png" />
+    <Content Include="_AXJ\ui\icon\smiley-mad.png" />
+    <Content Include="_AXJ\ui\icon\smiley-mr-green.png" />
+    <Content Include="_AXJ\ui\icon\smiley-neutral.png" />
+    <Content Include="_AXJ\ui\icon\smiley-paint-brush.png" />
+    <Content Include="_AXJ\ui\icon\smiley-razz.png" />
+    <Content Include="_AXJ\ui\icon\smiley-red.png" />
+    <Content Include="_AXJ\ui\icon\smiley-roll.png" />
+    <Content Include="_AXJ\ui\icon\smiley-sad.png" />
+    <Content Include="_AXJ\ui\icon\smiley-slim.png" />
+    <Content Include="_AXJ\ui\icon\smiley-surprise.png" />
+    <Content Include="_AXJ\ui\icon\smiley-twist.png" />
+    <Content Include="_AXJ\ui\icon\smiley-wink.png" />
+    <Content Include="_AXJ\ui\icon\smiley-yell.png" />
+    <Content Include="_AXJ\ui\icon\smiley.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PageBase.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Profile.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\OpenInsa.Biz\OpenInsa.Biz.csproj">
+      <Project>{FAC6827D-8B44-458E-92D7-FBD07C0E6E16}</Project>
+      <Name>OpenInsa.Biz</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="providers.config" />
+    <Content Include="SqlMap.config" />
+    <None Include="_AXJ\jquery\jquery-1.10.2.min.map" />
+    <None Include="_AXJ\ui\default\img\AXPopOverArrow.psd" />
+    <None Include="_AXJ\ui\default\img\AXPopOverArrowBottom.psd" />
+    <None Include="_AXJ\ui\default\img\contextMenu.psd" />
+    <None Include="_AXJ\ui\default\img\treeIcons.psd" />
+    <None Include="_AXJ\ui\default\img\treeIcons2.psd" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>2223</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
