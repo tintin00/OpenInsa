@@ -18,3 +18,7 @@ D:\git_repo\Workspace_VS\OpenInsa\OpenInsa.Dac\bin\Debug\OpenInsa.Dac.dll
 D:\git_repo\Workspace_VS\OpenInsa\OpenInsa.Dac\bin\Debug\OpenInsa.Dac.pdb
 D:\git_repo\Workspace_VS\OpenInsa\OpenInsa.Dac\obj\Debug\OpenInsa.Dac.dll
 D:\git_repo\Workspace_VS\OpenInsa\OpenInsa.Dac\obj\Debug\OpenInsa.Dac.pdb
+D:\git_repo\OpenInsa\OpenInsa.Dac\bin\Debug\OpenInsa.Dac.dll
+D:\git_repo\OpenInsa\OpenInsa.Dac\bin\Debug\OpenInsa.Dac.pdb
+D:\git_repo\OpenInsa\OpenInsa.Dac\obj\Debug\OpenInsa.Dac.dll
+D:\git_repo\OpenInsa\OpenInsa.Dac\obj\Debug\OpenInsa.Dac.pdb

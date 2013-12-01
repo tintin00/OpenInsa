@@ -12,3 +12,10 @@ D:\git_repo\Workspace_VS\OpenInsa\OpenInsa.Biz\bin\Debug\OpenInsa.Dac.pdb
 D:\git_repo\Workspace_VS\OpenInsa\OpenInsa.Biz\obj\Debug\OpenInsa.Biz.csprojResolveAssemblyReference.cache
 D:\git_repo\Workspace_VS\OpenInsa\OpenInsa.Biz\obj\Debug\OpenInsa.Biz.dll
 D:\git_repo\Workspace_VS\OpenInsa\OpenInsa.Biz\obj\Debug\OpenInsa.Biz.pdb
+D:\git_repo\OpenInsa\OpenInsa.Biz\bin\Debug\OpenInsa.Biz.dll
+D:\git_repo\OpenInsa\OpenInsa.Biz\bin\Debug\OpenInsa.Biz.pdb
+D:\git_repo\OpenInsa\OpenInsa.Biz\bin\Debug\OpenInsa.Dac.dll
+D:\git_repo\OpenInsa\OpenInsa.Biz\bin\Debug\OpenInsa.Dac.pdb
+D:\git_repo\OpenInsa\OpenInsa.Biz\obj\Debug\OpenInsa.Biz.csprojResolveAssemblyReference.cache
+D:\git_repo\OpenInsa\OpenInsa.Biz\obj\Debug\OpenInsa.Biz.dll
+D:\git_repo\OpenInsa\OpenInsa.Biz\obj\Debug\OpenInsa.Biz.pdb

@@ -15,3 +15,10 @@ D:\git_repo\Workspace_VS\OpenInsa\OpenInsa.Web\obj\Debug\OpenInsa.Web.pdb
 D:\git_repo\Workspace_VS\OpenInsa\OpenInsa.Web\bin\IBatisNet.Common.dll
 D:\git_repo\Workspace_VS\OpenInsa\OpenInsa.Web\bin\IBatisNet.Common.Logging.Log4Net.dll
 D:\git_repo\Workspace_VS\OpenInsa\OpenInsa.Web\bin\IBatisNet.DataMapper.dll
+D:\git_repo\OpenInsa\OpenInsa.Web\bin\OpenInsa.Web.dll
+D:\git_repo\OpenInsa\OpenInsa.Web\bin\OpenInsa.Web.pdb
+D:\git_repo\OpenInsa\OpenInsa.Web\bin\OpenInsa.Biz.dll
+D:\git_repo\OpenInsa\OpenInsa.Web\bin\OpenInsa.Biz.pdb
+D:\git_repo\OpenInsa\OpenInsa.Web\obj\Debug\OpenInsa.Web.csprojResolveAssemblyReference.cache
+D:\git_repo\OpenInsa\OpenInsa.Web\obj\Debug\OpenInsa.Web.dll
+D:\git_repo\OpenInsa\OpenInsa.Web\obj\Debug\OpenInsa.Web.pdb
